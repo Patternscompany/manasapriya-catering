@@ -68,17 +68,17 @@ document.onkeydown = function (e) {
 
 	// disable I key
 	if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
-		return false;
+		return true;
 	}
 
 	// disable J key
 	if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
-		return false;
+		return true;
 	}
 
 	// disable U key
 	if(e.ctrlKey && e.keyCode == 85) {
-		return false;
+		return true;
 	}
 }
  
